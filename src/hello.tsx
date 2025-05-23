@@ -1,7 +1,15 @@
+import styled from "styled-components";
+
 interface HelloProps {
     name: string;
 }
 
+const Header = styled.h1`
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+`
+
 export const Hello = ({ name }: HelloProps) => {
-    return <h1>Hello, {name}!</h1>;
+    return <Header>Hello, {name}!</Header>;
 };
