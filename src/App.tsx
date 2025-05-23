@@ -1,7 +1,7 @@
-import { Hello } from "./hello.tsx";
+import { Hello } from './hello.tsx';
 
 function App() {
-  return <Hello name="춘식" />
+  return <Hello name="춘식" />;
 }
 
-export default App
+export default App;
