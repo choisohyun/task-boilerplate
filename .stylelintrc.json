@@ -1,3 +1,14 @@
 {
-  "extends": ["stylelint-config-recommended"]
+  "extends": ["stylelint-config-recommended"],
+  "overrides": [
+    {
+      "files": ["**/*.{js,ts,tsx}"],
+      "customSyntax": "postcss-styled-syntax",
+      "rules": {
+        "block-no-empty": null,
+        "no-empty-source": null,
+        "media-query-no-invalid": null
+      }
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-import { Hello } from './hello.tsx';
+import { Hello } from '@/hello';
 
 function App() {
   return <Hello name="춘식" />;
